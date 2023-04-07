@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "pre-commit": "yarn lint --fix"
+    "pre-commit": "yarn lint --fix && git add -A ."
   },
   "dependencies": {
     "@tanstack/react-query": "^4.24.10",
