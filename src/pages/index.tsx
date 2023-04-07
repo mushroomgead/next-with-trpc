@@ -16,6 +16,11 @@ export default function Home() {
   return (
     <div>
       <p>{hello.data.greeting}</p>
+
+
+
+
+      
     </div>
   );
 
